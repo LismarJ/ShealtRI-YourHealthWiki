@@ -27,6 +27,7 @@ python-dotenv>=1.0.0         # Environment configuration
 # Web Crawling & HTTP
 requests>=2.31.0             # HTTP library for web requests
 beautifulsoup4>=4.12.0       # HTML/XML parsing for crawler
+lxml>=4.9.0                  # Fast HTML/XML parser (required by BeautifulSoup scrapers)
 
 # Document Loading (optional formats)
 unstructured>=0.10.0         # HTML parsing for DocumentLoader
@@ -39,6 +40,9 @@ streamlit>=1.28.0            # Streamlit for UI or
 # Testing & Development
 pytest>=8.2.0                # Unit testing framework
 pytest-cov>=4.1.0            # Coverage reporting for tests
+pytest-xdist>=3.5.0          # Parallel test execution
+pytest-mock>=3.12.0          # Mock and patch utilities for testing
+mock>=5.1.0                  # Mock library for creating test doubles
 
 # Utilities
 python-dateutil>=2.8.0       # Date utilities
